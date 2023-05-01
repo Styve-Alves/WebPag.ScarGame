@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recruit</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+    crossorigin="anonymous">
+    <style>
+        body {
+       background-image: url("resources/Scar-recrute.jpeg");
+       background-size: cover;
+       background-position:center;
+     }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 36px; color:azure">Click the Button to recruit members to your team</h1>
+    <p style="font-family:fantasy, sans-serif; font-size: 32px; color:azure">Click the button as many times as you can within 10 seconds:</p>
+    <button type="button" class="btn btn-warning" id="clickButton" onclick="startGame()">CLICK FAST TO RAISE YOUR ARMY!</button>
+    <h3 style="color: white;" id="message"></h3>
+
+    <a href="actions.html"><button type="button" class="btn btn-success">RETURN TO THE VILLAIN SCREEN</button></a>
+    <script src="recrute.js"></script>
+  </body>
+</html>

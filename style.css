@@ -1,0 +1,65 @@
+body {
+    background-image: url('resources/FBwWTIUVkAI_SVj.jpeg');
+    background-size: cover;
+}
+.profile-pic {
+     display: block; 
+    margin: 0 auto;
+    border-radius: 15%;
+    max-width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+} 
+.btn {
+    margin: 0 10px;
+    font-size: 1.2em;
+    width: 130px;
+    height: 60px;
+    border-radius: 5px;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+.container {
+    
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+.table-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.2em;
+    color: white;
+    padding-right: 500px;
+}
+ 
+.custom-table th {
+background-color: rgb(1, 1, 2);
+color: white;
+}
+
+.custom-table td {
+ background-color: rgb(66, 186, 80);
+}
+#mapScar {
+display:none;
+}
+#mapMufasa {
+display:none;
+}

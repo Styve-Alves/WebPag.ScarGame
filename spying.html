@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spying</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <!--  <style>
+        body {
+          background-image: url('resources/scarCliff.jpeg');
+          background-size: cover;
+        }
+      </style> -->
+</head>
+<body>
+	<h1>Spying</h1>
+	<form id="spying-form">
+		<label for="animal-type">Select animal type:</label>
+		<select id="animal-type" name="animal-type">
+			<option value="hyena">Hyena</option>
+			<option value="vulture">Vulture</option>
+            <option value="crocodile">Evil Lion</option>
+		</select>
+		<label for="animal-count">Select number of animals:</label>
+		<input type="number" id="animal-count" name="animal-count" min="1" max="10">
+	</br>
+		<button type="submit" class="btn btn-success">Send out spies</button>
+	</form>
+	<div id="results"></div>
+    <div id="roll-the-dice" style="display:none;">
+        <h2>Roll the Dice!</h2>
+        <p>Click the button to roll the dice:</p>
+        <button id="roll-button">Roll</button>
+        <p id="roll-result"></p>
+      </div>      
+	  <a href="actions.html"><button type="button" class="btn btn-success">RETURN TO THE VILLAIN SCREEN</button></a>
+	<script defer src="spying.js"></script>
+    <script defer src="display.js"></script>
+</body>
+</html>
